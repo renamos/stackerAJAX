@@ -101,7 +101,7 @@ var getTopAnswerers = function (tag) {
 
     // the parameters we need to pass in our request to StackOverflow's API
     var request = {
-        site: 'stackoverflow',
+        site: 'stackoverflow'
     };
 
     $.ajax({
